@@ -1,0 +1,50 @@
+.rentalContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.sortingButtons {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.searchAddress {
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    padding: 5px;
+}
+.table {
+    border: 3px solid grey;
+    padding: 25px;
+    border-radius: 15px;
+    width: 90%;
+}
+th {
+    border: none;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    height: 70px;
+}
+td {
+    border: none;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+.houseImage {
+    border-right: none;
+    padding: 10px;
+}
+.houseImage img {
+    height: 150px;
+    width: 150px;
+}
+.table-image {
+    border-right: none;
+}

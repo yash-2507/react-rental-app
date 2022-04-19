@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  width: 98.7vw;
+  background: turquoise;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  height: 30px;
+  width: 120px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  color: grey;
+  font-weight: bold;
+}
+.toggle {
+  display: flex;
+  gap: 200px;
+  padding: 25px 50px;
+}
+.toggle-button {
+  box-shadow: -10px -10px 5px #aaaaaa;
+}
+.toggleForm {
+  margin-top: 20px;
+  height: 30px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
